@@ -1,3 +1,4 @@
+/*
 var globalVar ="i'm a global variable";
 let globalLet="I'm also a global but scoped with let"
 const globalConst="I'm a global constant ";
@@ -27,3 +28,17 @@ show();
 console.log(functionVar); // Throws ReferenceError
 console.log(functionLet); // Throws ReferenceError
 console.log(functionConst);
+*/
+
+
+{
+    let var1="let variable";
+    const var2="const variable";
+    var var3="var variable";
+}
+var3="hehe";
+var1="haha";
+var2="hoho";
+console.log(var3);
+console.log(var2);
+console.log(var1);
